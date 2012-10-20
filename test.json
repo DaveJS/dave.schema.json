@@ -1,0 +1,46 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://davejs.github.com/dave.schema.json/test.json"
+    },
+    "curie": {
+      "name": "acme",
+      "href": "http//example.com/relations/{rel}",
+      "templated": true
+    },
+    "acme:widgets": {
+      "href": "/widgets",
+      "title": "A widget",
+      "hreflang": "en",
+      "type": "application/hal+json"
+    }
+  },
+  "_embedded": {
+    "acme:example": {
+      "_links": {
+        "self": {
+          "href": "http://davejs.github.com/dave.schema.json/test.json#example-embedded-resource"
+        }
+      },
+      "_embedded": {
+        "acme:nested": [
+          {
+            "_links": {
+              "self": {
+                "href": "http://davejs.github.com/dave.schema.json/test.json#example-nested-1"
+              }
+            }
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "http://davejs.github.com/dave.schema.json/test.json#example-nested-2"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "example": 42
+}

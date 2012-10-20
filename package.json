@@ -1,0 +1,16 @@
+{
+  "name": "dave.schema.json",
+  "version": "0.0.1",
+  "description": "JSON Schema for JSON Hypermedia API Language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DaveJS/dave.schema.json.git"
+  },
+  "author": "Isaac Johnston <isaac@superstruct.co>",
+  "license": "MPL2",
+  "readmeFilename": "README.md"
+}
